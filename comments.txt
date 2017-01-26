@@ -1,0 +1,31 @@
+1. container puts padding around itself while container-fluid fills the whole screen. 
+    Bootstap grids require a container.
+2. page-header adds space aroundtext and enlarges it. 
+    It also adds an underline at the end
+3. jumbotron enlarges fonts and puts everything in a gray box with rounded corners. 
+    If jumbotron is outside a container it fills the total width. 
+    You can change the styles by placing the changes after the Bootstrap CDN link
+4. col-lg-3 & col-md-3: 
+    when screen is large ("lg") or medium ("md"), take up 3 of the total 12 columns.
+    I.e. if the screen is large, you will see four columns horizontally
+    each of the four columns in the source code having the width of 3 invisible columns.
+    col-sm-6:
+    If the screen is small ("sm"), you will see 2 columns horizontally,
+    each of the four columns having the width of 6 invisible columns.
+    col-xs-12:
+    If the screen is extra-small ("xs"), you will see 1 columns horizontally,
+    each of the four columns having the width of all 12 invisible columns.
+5. On large & medium screens: divide the screen into 12:2=6 invisible columns.  
+    On small screens: divide the screen into 12:4=3 invisible columns. 
+    On extra-small screens: divide the screen into 12:12=1 invisible column.
+6. "collapse in" means "expand initially".
+    "collapse" means "collapse initially"
+7. You can adjust the width of table columns as well.
+8. Use text alignment like "text-center" or "text-right".
+9. "col-md-offset-6" means "leave blank 6 columns to the left of the table"
+- Go to http://getbootstrap.com/getting-started/#download
+- Download the bootstrap from "Source"
+- Go to /dist
+- Copy+Paste the following folders: css/, fonts/, js
+
+
