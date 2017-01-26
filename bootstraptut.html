@@ -7,16 +7,39 @@
         <title>Bootstrap Tutorial</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
-        <style>
-            .jumbotron{
-                background-color:#2E2D88;
-                color:white;
+        <style type="text/css">
+            body {
+                font-family: arial, sans-serif;
+            }
+            #smileyLogo{
+                height: 100px;
+                width: 100px;
+            }
+            #websiteTitle{
+                font-size: 3em;
+                vertical-align: middle;
+                font-family: 'Pacifico', cursive;
+                padding-left: 15px;
+                color: #191970;
+            }
+            #websiteSlogan{
+                font-size: 1em;
+                text-align: center;
+            }
+            .jumbotron {
+                background-color: #E5E4E2;
             }
         </style>
     </head>
     <body>
         <!-- 1 -->
         <div class="container">
+
+            <div class="jumbotron">
+                <img src="img/smiley-tongue.png" id="smileyLogo" alt="New Think Tank Logo">
+                <span id="websiteTitle">Smilies Everywhere</span>
+                <p id="websiteSlogan">A bootstrap tutorial</p>
+            </div>
 
             <div class="row">
                 <!-- 9 -->
@@ -31,7 +54,7 @@
                             <tr>
                                 <!-- 7 -->
                                 <th class="col-md-2"></td>
-                                <!-- 8 -->
+                                    <!-- 8 -->
                                 <th class="text-center">Average</td>
                                 <th class="text-center">RBIs</td>
                                 <th class="text-center">Homeruns</td>
