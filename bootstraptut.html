@@ -29,9 +29,89 @@
             .jumbotron {
                 background-color: #E5E4E2;
             }
+            /* Carousel Styling */
+            .slide1{
+                background-image: url('img/bkgrnd1.jpg');
+                height: 500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .slide2{
+                background-image: url('img/bkgrnd2.jpg');
+                height: 500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .slide3{
+                background-image: url('img/bkgrnd3.jpg');
+                height: 500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .carousel-caption h1{
+                font-size: 5.4em;
+                font-family: 'Pacifico', cursive;
+                padding-bottom: .4em;
+            }
+            .carousel-caption p{
+                font-size: 2em;
+            }
         </style>
     </head>
     <body>
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+            <!-- component 1: carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#theCarousel" data-slide-to="1"></li>
+                <li data-target="#theCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- component 2: items -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <div class="slide1"></div>
+                    <div class="carousel-caption">
+                        <h1>Calming Ocean</h1>
+                        <p>Free marine backgrounds</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="slide2"></div>
+                    <div class="carousel-caption">
+                        <h1>Light Play</h1>
+                        <p>An array of lights</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Free Download</a></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="slide3"></div>
+                    <div class="carousel-caption">
+                        <h1>Something Cosmic</h1>
+                        <p>Beautiful Space Images</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Get some</a></p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- component 3: carousel controls -->
+            <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a class="right carousel-control" href="#theCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            
+        </div>
+        
         <!-- 1 -->
         <div class="container">
 
