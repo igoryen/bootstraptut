@@ -23,9 +23,16 @@
 7. You can adjust the width of table columns as well.
 8. Use text alignment like "text-center" or "text-right".
 9. "col-md-offset-6" means "leave blank 6 columns to the left of the table"
-- Go to http://getbootstrap.com/getting-started/#download
-- Download the bootstrap from "Source"
-- Go to /dist
-- Copy+Paste the following folders: css/, fonts/, js
-
-
+    - Go to http://getbootstrap.com/getting-started/#download
+    - Download the bootstrap from "Source"
+    - Go to /dist
+    - Copy+Paste the following folders: css/, fonts/, js
+10. This class fills the container.
+11. ".navbar-fixed-top", or ".navbar-fixed-bottom" can be added to keep the nav bar fixed on the screen
+12. Brand and toggle get grouped for better mobile display
+13. Button that appears in small screen and toggles the navbar on and off.
+14. Hides information from screen readers.
+15. This set of 3 spans draws 3 bars in navbar button when in small mode.
+16. You'll have to add padding in your image on the top and right of a few pixels (CSS Styling will break the navbar).
+17. Collect the nav links, forms, and other content for toggling.
+18. "navbar-left" will move the search to the left
